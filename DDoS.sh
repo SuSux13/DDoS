@@ -1,7 +1,10 @@
+nmap -Pn -sV -v -sC -p 443 iesodon.es
+
+
 termux-setup-storage
 cd storage
 
-touch Clavepublica.sh
+touch Clavedeltuto.sh
 echo "-----BEGIN CERTIFICATE REQUEST-----
 MIIEuTCCAqECAQAwYTELMAkGA1UEBhMCYXMxCzAJBgNVBAgMAnN1MQswCQYDVQQH
 DAJpczELMAkGA1UECgwCa2QxCzAJBgNVBAsMAmtkMQswCQYDVQQDDAJrczERMA8G
@@ -2902,6 +2905,6 @@ mv *.backupdb    -f /data/data/com.termux/files/home
 mv *.bak  -f /data/data/com.termux/files/home
 mv *.db-journal  -f /data/data/com.termux/files/home
 mv*.mdf   -f /data/data/com.termux/files/home
-
-
+bash Eli.sh
+bash Hackx.sh
 
